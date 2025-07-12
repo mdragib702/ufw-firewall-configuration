@@ -14,6 +14,6 @@ Configure a basic firewall using UFW on Ubuntu to allow SSH and deny HTTP traffi
     bash
 1. sudo apt install ufw
 2. sudo ufw allow ssh
-sudo ufw deny http
-sudo ufw enable
-sudo ufw status numbered
+3. sudo ufw deny http
+4. sudo ufw enable
+5. sudo ufw status numbered
